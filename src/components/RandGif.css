@@ -1,0 +1,31 @@
+.randgif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid green;
+  background-color: green;
+
+  gap: 5px;
+}
+
+h2 {
+  color: white;
+  background-color: green;
+}
+
+.btn {
+  font-size: large;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white;
+  border: 0px solid green;
+}
