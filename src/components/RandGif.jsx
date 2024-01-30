@@ -5,7 +5,7 @@ function RandGif() {
 
   async function fetchData() {
     setGif("");
-    const url = `https://api.giphy.com/v1/gifs/random?api_key=vwwjzK5fxuC2Vp2JZH0mNRSDke8grb0H`;
+    const url = `https://api.giphy.com/v1/gifs/random?api_key=${process.env.API_KEY}`;
     const response = await fetch(url);
     const data = await response.json();
     // console.log(data);
